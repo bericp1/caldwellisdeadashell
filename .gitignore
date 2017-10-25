@@ -1,0 +1,20 @@
+# deps
+/node_modules
+
+# ide
+.idea
+
+# next
+.next
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/_
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
