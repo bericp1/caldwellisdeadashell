@@ -19,20 +19,20 @@ export default ({ children }) => (
     <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#ff7f11" />
     <meta name="theme-color" content="#24292b" />
 
-    <!-- Search Engine -->
+    {/* Search Engine */}
     <meta name="description" content="Listen to What Should We Draw!" />
     <meta name="image" content="https://caldwellisdeadashell.com/static/images/social-media-image.png" />
-    <!-- Schema.org for Google -->
+    {/* Schema.org for Google */}
     <meta itemprop="name" content="Caldwell Is Dead As Hell" />
     <meta itemprop="description" content="Listen to What Should We Draw!" />
     <meta itemprop="image" content="https://caldwellisdeadashell.com/static/images/social-media-image.png" />
-    <!-- Twitter -->
+    {/* Twitter */}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Caldwell Is Dead As Hell" />
     <meta name="twitter:description" content="Listen to What Should We Draw!" />
     <meta name="twitter:site" content="@bericp1" />
     <meta name="twitter:image:src" content="https://caldwellisdeadashell.com/static/images/social-media-image.png" />
-    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    {/* Open Graph general (Facebook, Pinterest & Google+) */}
     <meta name="og:title" content="Caldwell Is Dead As Hell" />
     <meta name="og:description" content="Listen to What Should We Draw!" />
     <meta name="og:image" content="https://caldwellisdeadashell.com/static/images/social-media-image.png" />

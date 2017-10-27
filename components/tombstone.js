@@ -6,6 +6,7 @@ export default ({ text, onClick }) => (
       <div className="text-inner-container">
         <span>{text}</span>
       </div>
+      <span className="hint">(click me so good)</span>
     </div>
     <style jsx>{`
     .container {display: block; margin-bottom: 20px; position: relative; cursor: pointer; user-select: none;}
@@ -13,6 +14,7 @@ export default ({ text, onClick }) => (
     .text-container label {font-size: 30px; color: #5a5a5a; font-weight: bold; text-transform: uppercase;}
     .text-container .text-inner-container {flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;}
     .text-container .text-inner-container span {font-size: 24px; font-family: "Comic Sans MS", cursive, sans-serif;}
+    .text-container .hint {font-size: 12px;}
     img {display: block; width: 300px;}
     `}</style>
   </div>
