@@ -7,6 +7,24 @@ export default ({ children }) => (
     <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     <link rel="stylesheet" href="/static/css/normalize.min.css" />
     <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png" />
+    <link rel="icon" href="/static/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="194x194" href="/static/favicons/favicon-194x194.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/favicons/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/static/favicons/manifest.json" />
+    <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#ff7f11" />
+    <meta name="theme-color" content="#24292b" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108789514-1" />
+    <script dangerouslySetInnerHTML={{__html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108789514-1');
+    `}} />
+
     {children}
   </Head>
 )
